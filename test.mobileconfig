@@ -5,32 +5,22 @@
     <key>PayloadContent</key>
     <array>
         <dict>
-            <key>SSID_STR</key>
-            <string>YourNetworkName</string>
-            <key>Password</key>
-            <string>YourNetworkPassword</string>
-            <key>EncryptionType</key>
-            <string>WPA</string>
-            <key>PayloadDisplayName</key>
-            <string>Wi-Fi Configuration</string>
-            <key>PayloadIdentifier</key>
-            <string>com.example.wifi</string>
             <key>PayloadType</key>
-            <string>com.apple.wifi.managed</string>
+            <string>com.apple.mobile.device</string>
+            <key>PayloadIdentifier</key>
+            <string>com.hellstore.udid</string>
             <key>PayloadUUID</key>
-            <string>UNIQUE-UUID-1</string>
+            <string>12345678-1234-1234-1234-1234567890ab</string>
             <key>PayloadVersion</key>
             <integer>1</integer>
         </dict>
     </array>
     <key>PayloadDisplayName</key>
-    <string>Configuration Profile</string>
+    <string>Get UDID</string>
     <key>PayloadIdentifier</key>
-    <string>com.example.profile</string>
-    <key>PayloadType</key>
-    <string>Configuration</string>
+    <string>com.hellstore.udid.profile</string>
     <key>PayloadUUID</key>
-    <string>UNIQUE-UUID-2</string>
+    <string>abcdefab-cdef-abcd-efab-cdefabcdefab</string>
     <key>PayloadVersion</key>
     <integer>1</integer>
 </dict>
